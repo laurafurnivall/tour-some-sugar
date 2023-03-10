@@ -1,0 +1,37 @@
+/* Create wonderous design for webpage */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px 5px darkgoldenrod;
+    font-size: 50px;
+    text-decoration: underline;
+    line-height: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.bookings {
+    background-color: darkgoldenrod;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.listDetail {
+    color: whitesmoke;
+
+}
